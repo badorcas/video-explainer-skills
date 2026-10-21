@@ -1,0 +1,13 @@
+media/
+result
+result-*
+__pycache__/
+*.pyc
+*.mp4
+*.mov
+*.wav
+*.raw
+*.blend
+*.blend1
+.venv/
+.DS_Store
