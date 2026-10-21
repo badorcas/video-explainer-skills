@@ -1,4 +1,4 @@
-# Claude skills
+# Video explainer skills
 
 Skills for [Claude Code](https://claude.com/claude-code) and other Claude agents that load `SKILL.md` skills.
 
@@ -11,14 +11,14 @@ Skills for [Claude Code](https://claude.com/claude-code) and other Claude agents
 A skill is a folder with a `SKILL.md` at its root. Copy or symlink it into your skills directory:
 
 ```bash
-git clone <this repo> claude-skills
+git clone <this repo> video-explainer-skills
 mkdir -p ~/.claude/skills
 
 # symlink (updates with git pull)
-ln -s "$PWD/claude-skills/skills/manim-explainer-video" ~/.claude/skills/manim-explainer-video
+ln -s "$PWD/video-explainer-skills/skills/manim-explainer-video" ~/.claude/skills/manim-explainer-video
 
 # or copy
-cp -r claude-skills/skills/manim-explainer-video ~/.claude/skills/
+cp -r video-explainer-skills/skills/manim-explainer-video ~/.claude/skills/
 ```
 
 For one project only, use `<project>/.claude/skills/` instead of `~/.claude/skills/`. Claude picks the skill up when a request matches its description (for example "make a manim explainer for this mp3").
